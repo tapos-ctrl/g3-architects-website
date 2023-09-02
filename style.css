@@ -10,21 +10,68 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 16px 25px;
+    border: none;
+    cursor: pointer;
+}
+
 /* header styles  */
-header{
+header {
+    background: rgba(255, 144, 14, 0.10);
     padding: 30px 200px;
+}
+
+header>nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
-header ul{
+
+header ul {
     display: flex;
     list-style: none;
 }
-header li{
+
+header li {
     padding: 0px 20px;
 }
-header ul li a{
+
+header ul li a {
     text-decoration: none;
     color: #424242;
+}
+
+.banner-content {
+    text-align: center;
+    width: 862px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+    padding: 30px 0px;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 30px;
 }
