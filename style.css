@@ -10,6 +10,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+main,
+.header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -26,26 +32,26 @@
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 200px;
+
 }
 
-header>nav {
-    
+.header>nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
 }
 
-header ul {
+.header ul {
     display: flex;
     list-style: none;
 }
 
-header li {
+.header li {
     padding: 0px 20px;
 }
 
-header ul li a {
+.header ul li a {
     text-decoration: none;
     color: #424242;
 }
@@ -71,7 +77,56 @@ header ul li a {
     padding: 30px 0px;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     margin-top: 30px;
+}
+
+/* main styles  */
+
+
+/* teem styles */
+
+.teem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.teem-img-container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px 100px;
+}
+
+.teem-content{
+    padding: 0px 10px;
+    width: 50%;
+}
+.teem-title {
+    color: #727272;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.teem-our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.teem-feature {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.teem-discription {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin: 24px 0px;
 }

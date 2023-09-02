@@ -38,7 +38,40 @@
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    nav, ul {
+    nav,
+     ul,
+     .teem {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0px;
+        text-align: center;
+    }
+    header,
+    main 
+    {
+        padding: 4vw;
+    }
+    .banner-title {
+        font-size: 2rem;
+    }
+    /* teem style  */
+    .teem-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px 0px;
+    }
+    .teem-img-container{
+        width: 100%;
+    }
+    .teem-img-container img {
+        width: 100%;
+    }
+}
+@media (max-width: 287.98px) {
+
+    nav, ul , .teem{
         flex-direction: column;
     }
     nav ul li {
@@ -46,9 +79,9 @@
         text-align: center;
     }
     header {
-        padding: 30px 50px;
+        padding: 4vw;
     }
     .banner-title {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
