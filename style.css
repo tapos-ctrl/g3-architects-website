@@ -255,9 +255,37 @@ header {
     font-weight: 600;
     margin-top: 10px;
 }
+
 .facts-cart-container>.cart>h5 {
     color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
-    
+
+}
+
+/* responser styles  */
+.responser-title {
+    text-align: center;
+    color: #131313;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.responser-description {
+    text-align: center;
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+.responser-img-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 120px;
+
+}
+.responser-img-container img{
+    max-width: 300px;
+    margin: 20px 0px;
+
 }

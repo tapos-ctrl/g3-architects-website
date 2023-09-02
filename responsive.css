@@ -168,6 +168,13 @@
     .feater-img{
         padding-left: 0px;
     }
+    /* responser styles  */
+    .responser-img-container{
+        flex-wrap: wrap;
+    }
+    .responser-img-container img{
+        width:400px ;
+    }
 }
 @media (max-width: 287.98px) {
 
