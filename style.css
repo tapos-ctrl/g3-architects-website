@@ -143,7 +143,7 @@ header {
 }
 
 .feature-content {
-    padding-right: 50px;
+    padding-right: 150px;
     width: 50%;
 }
 
@@ -175,7 +175,7 @@ header {
     color: #131313;
     font-size: 1.25rem;
     font-weight: 600;
-  
+
 }
 
 .feature-cart-description {
@@ -184,12 +184,12 @@ header {
     line-height: 26px;
 }
 
-.feater-img {
+.feature-img {
     padding-left: 100px;
     /* width: 50%; */
 }
 
-.feater-img img {
+.architech-img {
     width: 100%;
 }
 
@@ -201,7 +201,7 @@ header {
     position: relative;
     bottom: 100px;
     left: -90px;
-    
+
 }
 
 .experience h1 {
@@ -218,4 +218,46 @@ header {
     text-align: center;
     font-weight: 500;
     line-height: 40px;
+}
+
+/* facts styles */
+.facts-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.facts-description {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.facts-cart-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-cart {
+    text-align: center;
+    padding: 45px;
+    box-shadow: none;
+    background: #FFF;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin: 50px 0px;
+}
+
+.facts-cart-container>.cart>h1 {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.facts-cart-container>.cart>h5 {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    
 }

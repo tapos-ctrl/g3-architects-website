@@ -14,7 +14,11 @@
         padding: 12px;
     }
     .feature-img img {
-        height: 90%;
+        height: 100%;
+    }
+    .feature-content{
+        width: 100%;
+        padding-right: 100px;
     }
 }
 
@@ -29,9 +33,12 @@
     .feature{
         flex-direction: column;
     }
-    .feature-content
-    {
+    .feature-content{
         width: 100%;
+        padding-right: 0px;
+    }
+    .facts-cart-container{
+        flex-wrap: wrap;
     }
 }
 
@@ -44,14 +51,20 @@
         flex-direction: column;
     }
     .teem-img-container,
-    .teem-content,.feature-content
+    .teem-content
     {
         width: 100%;
     }
     .teem-content{
         margin-top: 50px;
     }
-
+    .feature-content{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .facts-cart-container{
+        flex-wrap: wrap;
+    }
 }
  /* applies to small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
@@ -81,8 +94,7 @@
         padding: 0px 0px;
     }
     .teem-img-container,
-    .teem-content,
-    .feature-content
+    .teem-content
     {
         width: 100%;
     }
@@ -92,6 +104,13 @@
     .teem-content{
         margin-top: 60px;
     }
+    .feature-content{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .facts-cart-container{
+        flex-wrap: wrap;
+    }
  }
 /* applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -99,7 +118,8 @@
     nav,
      ul,
      .teem ,
-     .feature{
+     .feature,
+     .facts-cart-container{
         flex-direction: column;
     }
     nav ul li {
@@ -140,6 +160,10 @@
         font-size: 3rem;
         font-weight: 700;
         line-height: 70px;
+    }
+    .feature-content{
+        width: 100%;
+        padding-right: 0px;
     }
     .feater-img{
         padding-left: 0px;
