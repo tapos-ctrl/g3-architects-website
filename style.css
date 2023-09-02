@@ -52,7 +52,7 @@ header ul li a {
 
 .banner-content {
     text-align: center;
-    width: 862px;
+    max-width: 862px;
     margin: 0 auto;
 }
 
