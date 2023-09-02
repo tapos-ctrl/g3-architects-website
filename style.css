@@ -11,7 +11,7 @@
 }
 
 main,
-.header {
+.header{
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -278,14 +278,32 @@ header {
     line-height: 26px;
     margin: 24px 0px;
 }
-.responser-img-container{
+
+.responser-img-container {
     display: flex;
     justify-content: space-around;
     margin: 50px 0px 120px;
 
 }
-.responser-img-container img{
+
+.responser-img-container img {
     max-width: 300px;
     margin: 20px 0px;
 
+}
+
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    
 }
