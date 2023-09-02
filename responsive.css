@@ -1,38 +1,75 @@
 
 /* applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-    header {
+    header, main {
         padding: 30px 150px;
     }
 }
 
 /* applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    header {
+    header,main {
         padding: 30px 100px;
+    }
+    .teem-img-container {
+        padding: 0px 50px;
     }
 }
 
 /* applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    header {
+    header,main {
         padding: 30px 70px;
+    }
+    .teem{
+        flex-direction: column;
+    }
+    .teem-img-container,
+    .teem-content
+    {
+        width: 100%;
+    }
+    .teem-content{
+        margin-top: 50px;
     }
 
 }
  /* applies to small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
-    nav {
+    nav,
+    .teem
+    
+     {
         flex-direction: column;
     }
     ul li{
         margin-top: 20px;
     }
-    header {
+    header ,
+    main
+    {
         padding: 30px 50px;
     }
     .banner-title {
         font-size: 3rem;
+    }   
+    /* teem style  */
+    .teem-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0px 0px;
+    }
+    .teem-img-container,
+    .teem-content
+    {
+        width: 100%;
+    }
+    .teem-img-container img {
+        width: 100%;
+    }
+    .teem-content{
+        margin-top: 60px;
     }
  }
 /* applies to x-small devices (portrait phones, less than 576px) */
