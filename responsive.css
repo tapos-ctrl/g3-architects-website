@@ -4,6 +4,18 @@
     header, main {
         padding: 30px 150px;
     }
+    .feature-img {
+        padding-left: 0px;
+    }
+    .experience {
+        left: 0px;
+    }
+    .cart{
+        padding: 12px;
+    }
+    .feature-img img {
+        height: 90%;
+    }
 }
 
 /* applies to large devices (desktops, less than 1200px) */
@@ -14,6 +26,13 @@
     .teem-img-container {
         padding: 0px 50px;
     }
+    .feature{
+        flex-direction: column;
+    }
+    .feature-content
+    {
+        width: 100%;
+    }
 }
 
 /* applies to medium devices (tablets, less than 992px) */
@@ -21,11 +40,11 @@
     header,main {
         padding: 30px 70px;
     }
-    .teem{
+    .teem, .feature{
         flex-direction: column;
     }
     .teem-img-container,
-    .teem-content
+    .teem-content,.feature-content
     {
         width: 100%;
     }
@@ -37,7 +56,8 @@
  /* applies to small devices (landscape phones, less than 768px) */
  @media (max-width: 767.98px) {
     nav,
-    .teem
+    .teem,
+    .feature
     
      {
         flex-direction: column;
@@ -61,7 +81,8 @@
         padding: 0px 0px;
     }
     .teem-img-container,
-    .teem-content
+    .teem-content,
+    .feature-content
     {
         width: 100%;
     }
@@ -77,7 +98,8 @@
 
     nav,
      ul,
-     .teem {
+     .teem ,
+     .feature{
         flex-direction: column;
     }
     nav ul li {
@@ -104,6 +126,23 @@
     }
     .teem-img-container img {
         width: 100%;
+    }
+    .experience {
+        border-radius: 8px;
+        background: #FF900E;
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+    .experience h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 70px;
+    }
+    .feater-img{
+        padding-left: 0px;
     }
 }
 @media (max-width: 287.98px) {
